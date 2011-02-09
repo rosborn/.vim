@@ -22,7 +22,7 @@ set showcmd	        " display incomplete commands
 set incsearch		" do incremental searching
 
 " Command shortcut for editting .vimrc
-com Ev e ~/.vimrc
+com Ev e ~/.vim/vimrc
 
 " Set guifont to consolas 12
 set gfn=DejaVu\ Sans\ Mono:h12
@@ -59,6 +59,10 @@ noremap ` '
 
 " XPTemplate variables
 let g:xptemplate_vars ='author=Richard Osborn&email=richardosborn@mac.com&BRfun= '
+
+" Center window after repeating a /? search
+nnoremap n nzz
+nnoremap N Nzz
 
 " Set the look of hidden characters
 set lcs=extends:>,precedes:<,trail:-
