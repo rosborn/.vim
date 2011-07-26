@@ -1,2 +1,0 @@
-visincr.vba: call delete('/Users/Richard/.vim/plugin/visincrPlugin.vim')|call delete('/Users/Richard/.vim/autoload/visincr.vim')|call delete('/Users/Richard/.vim/doc/visincr.txt')|call delete('/Users/Richard/.vim/autoload/calutil.vim')
-vissort.vba: call delete('/Users/Richard/.vim/plugin/vissort.vim')|call delete('/Users/Richard/.vim/doc/vissort.txt')
